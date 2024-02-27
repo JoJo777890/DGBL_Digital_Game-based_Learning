@@ -194,8 +194,9 @@ GameObject:
   - component: {fileID: 4700417493276754065}
   - component: {fileID: 8025325431812714633}
   - component: {fileID: 4673985375093967243}
+  - component: {fileID: 6437028352551483473}
   m_Layer: 0
-  m_Name: Scanner 3
+  m_Name: Scanner
   m_TagString: Scanners
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -315,6 +316,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6437028352551483473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695537568878498793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72a8965bdaf9064f9f976576e90fff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2872563089064820556
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +339,7 @@ GameObject:
   - component: {fileID: 970772257593819680}
   - component: {fileID: 2078723565429017404}
   - component: {fileID: 7606642948253384204}
-  - component: {fileID: 3670125008186131705}
+  - component: {fileID: 4026093768962679904}
   m_Layer: 0
   m_Name: Book Symbol 1
   m_TagString: Untagged
@@ -349,7 +362,7 @@ Transform:
   - {fileID: 1833316653297375522}
   - {fileID: 4783591137326833517}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2078723565429017404
 MonoBehaviour:
@@ -377,7 +390,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 3670125008186131705}
+  mPreview: {fileID: 4026093768962679904}
 --- !u!114 &7606642948253384204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,7 +435,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3670125008186131705
+--- !u!114 &4026093768962679904
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
