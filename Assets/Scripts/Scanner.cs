@@ -20,6 +20,11 @@ public class Scanner : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetMouseButtonDown(0))
+        {
+            isMoving = true;
+        }
+        
         if (isMoving)
         {
             // Move forwards right.
@@ -42,6 +47,6 @@ public class Scanner : MonoBehaviour
     {
         Debug.Log("Scanner Moving...");
 
-        isMoving = true;
+        //isMoving = true;
     }
 }
